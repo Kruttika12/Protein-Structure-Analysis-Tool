@@ -42,6 +42,12 @@ The application provides a simple graphical interface that allows users to uploa
 - Identifies other residues whose C-alpha atoms are within the specified distance of the reference residue.
 - Displays the neighbouring residues and their calculated distances.
 
+### 7. Interacting Residues Identification
+- Identifies residues surrounding a selected ligand or reference atom based on a user-defined distance cutoff.
+- Calculates distances between selected atoms using their three-dimensional Cartesian coordinates.
+- Identifies nearby amino acid residues that may participate in protein–ligand interactions.
+- Reports the interacting residues and their corresponding distances for further structural analysis.
+
 ## Technologies Used
 
 - Python 3
